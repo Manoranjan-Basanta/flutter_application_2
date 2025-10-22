@@ -111,7 +111,7 @@ class _CalculatorPageState extends State<CalculatorPage> {
             alignment: Alignment.centerRight,
             child: Text(
               result,
-              style: const TextStyle(fontSize: 48, fontWeight: FontWeight.bold),
+              style: const TextStyle(fontSize: 48, fontWeight: FontWeight.bold, color: Colors.blue),
             ),
           ),
           const Divider(),
