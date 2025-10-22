@@ -103,7 +103,7 @@ class _CalculatorPageState extends State<CalculatorPage> {
             alignment: Alignment.centerRight,
             child: Text(
               input,
-              style: const TextStyle(fontSize: 32, fontWeight: FontWeight.w400),
+              style: const TextStyle(fontSize: 32, fontWeight: FontWeight.w400, color: Colors.blue),
             ),
           ),
           Container(
